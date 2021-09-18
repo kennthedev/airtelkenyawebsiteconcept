@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
 </head>  
 <body>          
 
@@ -35,73 +38,50 @@
         </ul>
     </nav>
 
-    <div class="hero">
-        <h2 style="text-align: center; float: left; margin-left: 120px;" >
-            <span style="display: block; font-weight: 500;">Send money  &  pay bills</span>
-           <span style="display: block; font-weight: 500;">for</span>
-           <span style="display: block; font-size: 80px; font-weight: bold ;color: #db0c16; " >FREE</span>
+    <div class="hero-image"></div>
+   
+   <div class="getting-started">
+       <h2><span >Getting Started with Airtel money</span>
+           <span style="display: block; font-size: 14px ; color: #e80115; font-family: 'Roboto', sans-serif; font-weight: lighter;">*Registering with Airtel money is FREE</span>
+
         </h2>
 
-        <h2 style="float:right; font-size: 14px;  font-weight: 300; color: #db0c16; margin-top: 260px; margin-right: 40px;">THE SMARTPHONE NETWORK</h2>
-        <img src="images/airtel money.png" alt="">
-    </div>
-
-    <div class="options">
-        <div class="option1">
-            <h3 style="color: #dfdddd; margin-left:64px ; font-weight: 500; font-size: 24px;">
-                About Airtel money
-            </h3>
-
-            <h3 class="more"><a href="">LEARN MORE
-                <img src="images/icons/Path 3.png" alt="">
-            </a>
-            </h3>
-
-            <img class="moreimage" src="images/icons/icons8-money-64.png" alt="">
+        <div style="display: flex; justify-content: space-between; width: 70%;margin-left: 300px; margin-top: 80px;">
+            <div class="step1">
+                <img src="images/icons/store.png" alt="" style="text-align:center;">
+                <p>Visit nearest Airtel money Agent //br</p>
+                <p>or Airtel shop.</p>
+            </div>
+            <div class="step2">
+                <img src="images/icons/id card.png" alt="">
+                <p>Provide an original identification document</p>
+                <p>Either:</p>
+                <ul>
+                    <li>a kenyan national I.D</li>
+                    <li>An up to date passport</li>
+                    <li>a military I.D</li>
+                    <li>An alien I.D</li>
+                </ul>
+               
+            </div>
+            <div class="step3">
+                <img src="images/icons/applause.png" alt="">
+                <p>You are all set.</p>
+                <P>Remember to Dial *222# to access</P>
+                <p>Airtel money services or Download</p>
+                <p>MY AIRTEL APP</p>
+            </div>
         </div>
-        <div class="option2">
+   </div>
 
-            <h3 style="color: #665c5c; font-weight: 500; margin-left:64px ; font-size: 24px;">
-                Getting Started
-            </h3>
+   <div class="calc-container">
+       <div class="calculator">
+           <h4 id="answer" style="background: rebeccapurple; width: 120px; height: 120px; color: white;"></h4>
+           <input type="text" placeholder="enter amount..." id="amount" value="">
+           <button id="answer-button" onclick="function calculate()" >calculate</button>
+       </div>
+   </div>
 
-            <h3 class="more"><a href="" style="color: #b10d10;">LEARN MORE
-                <img src="images/icons/Path 3.png" alt="">
-            </a>
-            </h3>
-
-            <img class="moreimage" src="images/icons/icons8-money-64.png" alt="">
-        </div>
-    </div>
-
-    <div class="options2" >
-        <div class="option1" style="background:#ffffff ;">
-
-            <h3 style="color: #696565; margin-left:64px ; font-size: 24px; font-weight: 500;">
-               Lipa Na Airtel money
-            </h3>
-
-            <h3 class="more" ><a href="" style="color:#696565 ;">LEARN MORE
-                <img src="images/icons/Path 3.png" alt="">
-            </a>
-            </h3>
-
-            <img class="moreimage" src="images/icons/icons8-money-64.png" alt="">
-        </div>
-
-        <div class="option2" style="background: #444141;">
-            <h3 style="color: #bd9a9a; font-weight: 500; margin-left:64px ; font-size: 24px;">
-                More Services on Airtel money
-            </h3>
-
-            <h3 class="more"><a href="">LEARN MORE
-                <img src="images/icons/Path 3.png" alt="">
-            </a>
-            </h3>
-
-            <img class="moreimage" src="images/icons/icons8-money-64.png" alt="">
-        </div>
-        
-    </div>
+   <script src="index.js"></script>
 </body>
 </html>
